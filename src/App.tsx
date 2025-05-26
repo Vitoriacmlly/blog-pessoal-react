@@ -8,6 +8,7 @@ import Footer from './assets/components/footer/Footer'
 import { AuthProvider } from './contexts/AuthContext'
 import ListaTemas from './assets/components/temas/listatemas/ListaTemas'
 import FormTema from './assets/components/temas/formtema/FormTema'
+import DeletarTema from './assets/components/temas/deletartema/DeletarTema'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <Route path="/temas" element={<ListaTemas />} />
               <Route path="/cadastrartema" element={<FormTema />} />
               <Route path="/editartema/:id" element={<FormTema />} />
+              <Route path="/deletartema/:id" element={<DeletarTema />} />
             </Routes>
           </div>
           <Footer />
