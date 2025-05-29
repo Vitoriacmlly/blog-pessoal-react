@@ -3,12 +3,12 @@ import './App.css'
 import Home from './pages/home/Home'
 import Login from './pages/login/Login'
 import Cadastro from './pages/cadastro/Cadastro'
-import Navbar from './assets/components/navbar/Navbar'
-import Footer from './assets/components/footer/Footer'
+import Navbar from './components/navbar/Navbar'
+import Footer from './components/footer/Footer'
 import { AuthProvider } from './contexts/AuthContext'
-import ListaTemas from './assets/components/temas/listatemas/ListaTemas'
-import FormTema from './assets/components/temas/formtema/FormTema'
-import DeletarTema from './assets/components/temas/deletartema/DeletarTema'
+import ListaTemas from './components/temas/listatemas/ListaTemas'
+import FormTema from './components/temas/formtema/FormTema'
+import DeletarTema from './components/temas/deletartema/DeletarTema'
 
 function App() {
   return (

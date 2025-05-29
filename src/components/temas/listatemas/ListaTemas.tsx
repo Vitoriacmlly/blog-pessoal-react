@@ -2,9 +2,9 @@ import { useContext, useEffect, useState } from "react";
 import { DNA } from "react-loader-spinner";
 import { useNavigate } from "react-router-dom";
 import CardTemas from "../cardtemas/CardTemas";
-import { AuthContext } from "../../../../contexts/AuthContext";
-import { buscar } from "../../../../services/Service";
-import type Tema from "../../../../models/Tema";
+import { AuthContext } from "../../../contexts/AuthContext";
+import { buscar } from "../../../services/Service";
+import type Tema from "../../../models/Tema";
 
 function ListaTemas() {
 
